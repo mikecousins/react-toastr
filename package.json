@@ -1,5 +1,5 @@
 {
-  "name": "react-toastr",
+  "name": "react-toastr2",
   "version": "2.8.2",
   "description": "React.js toastr component",
   "main": "lib/index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomchentw/react-toastr"
+    "url": "https://github.com/mikecousins/react-toastr"
   },
   "keywords": [
     "React.js",
@@ -43,21 +43,22 @@
     "jQuery"
   ],
   "author": {
-    "name": "tomchentw",
-    "email": "developer@tomchentw.com",
-    "url": "https://github.com/tomchentw"
+    "name": "Mike Cousins",
+    "email": "mike@mikecousins.com",
+    "url": "https://github.com/mikecousins"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomchentw/react-toastr/issues"
+    "url": "https://github.com/mikecousins/react-toastr/issues"
   },
-  "homepage": "https://tomchentw.github.io/react-toastr/",
+  "homepage": "http://www.mikecousins.com",
   "devDependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.24.1",
     "babel-eslint": "7.2.3",
     "babel-plugin-lodash": "3.2.11",
     "babel-plugin-transform-flow-comments": "6.22.0",
+    "babel-plugin-transform-class-properties": "6.22.0",
     "babel-plugin-typecheck": "3.9.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
@@ -91,6 +92,7 @@
     "lodash": "4.17.4",
     "prop-types": "15.5.8",
     "react-addons-update": "^0.14.0 || ^15.0.0",
+    "create-react-class": "15.5.2",
     "react-dom": "^0.14.0 || ^15.0.0"
   }
 }

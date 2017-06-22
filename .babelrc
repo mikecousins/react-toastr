@@ -8,7 +8,8 @@
   },
   "plugins": [
     "lodash",
-    "transform-flow-comments"
+    "transform-flow-comments",
+    "transform-class-properties"
   ],
   "presets": [
     "es2015",

@@ -1,6 +1,7 @@
 import React from 'react';
 import update from 'react-addons-update';
 import classNames from 'classnames';
+import createClass from 'create-react-class';
 import animationMixin from './animationMixin';
 import jQueryMixin from './jQueryMixin';
 
@@ -92,12 +93,12 @@ const ToastMessageSpec = {
   },
 };
 
-export const animation = React.createClass(update(ToastMessageSpec, {
+export const animation = createClass(update(ToastMessageSpec, {
   displayName: { $set: 'ToastMessage.animation' },
   mixins: { $set: [animationMixin] },
 }));
 
-export const jQuery = React.createClass(update(ToastMessageSpec, {
+export const jQuery = createClass(update(ToastMessageSpec, {
   displayName: { $set: 'ToastMessage.jQuery' },
   mixins: { $set: [jQueryMixin] },
 }));
