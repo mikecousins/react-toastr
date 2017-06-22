@@ -7,7 +7,7 @@
 ## Installation
 
 ```sh
-npm i --save react-toastr
+npm install react-toastr2
 ```
 
 
@@ -36,7 +36,7 @@ Link to css for styles:
 Then:
 
 ```javascript
-var ReactToastr = require("react-toastr");
+var ReactToastr = require("react-toastr2");
 var {ToastContainer} = ReactToastr; // This is a React Element.
 // For Non ES6...
 // var ToastContainer = ReactToastr.ToastContainer;
