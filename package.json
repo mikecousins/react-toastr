@@ -1,6 +1,6 @@
 {
   "name": "react-toastr2",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "React.js toastr component",
   "main": "lib/index.js",
   "files": [

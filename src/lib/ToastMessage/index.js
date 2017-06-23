@@ -110,7 +110,7 @@ ToastMessageSpec.handleMouseEnter = noop;
 ToastMessageSpec.handleMouseLeave = noop;
 ToastMessageSpec.hideToast = noop;
 
-const ToastMessage = React.createClass(ToastMessageSpec);
+const ToastMessage = createClass(ToastMessageSpec);
 
 ToastMessage.animation = animation;
 ToastMessage.jQuery = jQuery;
