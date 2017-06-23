@@ -44,6 +44,7 @@ export default class App extends React.Component {
 
         <div className="github-button-container">
           <iframe
+            title="watch-button"
             src="https://ghbtns.com/github-btn.html?user=tomchentw&amp;repo=react-toastr&amp;type=watch&amp;count=true"
             allowTransparency="true"
             frameBorder="0"
@@ -52,6 +53,7 @@ export default class App extends React.Component {
             height="20"
           />
           <iframe
+            title="fork-button"
             src="https://ghbtns.com/github-btn.html?user=tomchentw&amp;repo=react-toastr&amp;type=fork&amp;count=true"
             allowTransparency="true"
             frameBorder="0"

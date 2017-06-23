@@ -48,7 +48,7 @@ const ToastMessageSpec = {
     return this.props.closeButton ? (
       /* eslint-disable react/no-danger */
       <button
-        className="toast-close-button" role="button"
+        className="toast-close-button"
         onClick={this.handleCloseButtonClick}
         dangerouslySetInnerHTML={{ __html: '&times;' }}
       />
