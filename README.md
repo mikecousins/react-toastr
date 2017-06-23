@@ -135,11 +135,11 @@ Directly migrated from `toastr.js` library, and can be overrided via `props` in 
 * [`ToastMessage.jQuery::getDefaultProps`](http://git.io/YcbXvA)
 
 
-[npm-image]: https://img.shields.io/npm/v/react-toastr.svg?style=flat-square
-[npm-url]: https://www.npmjs.org/package/react-toastr
+[npm-image]: https://img.shields.io/npm/v/react-toastr2.svg?style=flat-square
+[npm-url]: https://www.npmjs.org/package/react-toastr2
 
-[travis-image]: https://img.shields.io/travis/tomchentw/react-toastr.svg?style=flat-square
-[travis-url]: https://travis-ci.org/tomchentw/react-toastr
+[travis-image]: https://img.shields.io/travis/mikecousins/react-toastr.svg?style=flat-square
+[travis-url]: https://travis-ci.org/mikecousins/react-toastr
 [codeclimate-image]: https://img.shields.io/codeclimate/github/tomchentw/react-toastr.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/tomchentw/react-toastr
 [codeclimate-coverage-image]: https://img.shields.io/codeclimate/coverage/github/tomchentw/react-toastr.svg?style=flat-square
