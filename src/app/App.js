@@ -5,7 +5,6 @@ import './App.css';
 const ToastMessageFactory = React.createFactory(ToastMessage.animation);
 
 export default class App extends React.Component {
-
   addAlert = this.addAlert.bind(this);
   clearAlert = this.clearAlert.bind(this);
 
