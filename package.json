@@ -1,6 +1,6 @@
 {
   "name": "react-toastr2",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "React.js toastr component",
   "main": "lib/index.js",
   "files": [
@@ -66,25 +66,25 @@
     "babel-preset-stage-0": "6.24.1",
     "codeclimate-test-reporter": "0.5.0",
     "cross-env": "5.0.1",
-    "eslint": "3.19.0",
-    "eslint-config-airbnb": "15.0.1",
-    "eslint-plugin-flowtype": "2.34.0",
-    "eslint-plugin-import": "2.5.0",
-    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint": "4.3.0",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.1.0",
     "jquery": "3.2.1",
     "prismjs": "1.6.0",
     "raw-loader": "0.5.1",
-    "react": "15.6.1",
+    "react": "16.0.0-beta.1",
     "react-github-fork-ribbon": "0.5.0",
-    "react-scripts": "1.0.7",
+    "react-scripts": "1.0.10",
     "rimraf": "2.6.1",
     "standard-version": "4.2.0",
-    "webpack": "^2.6.1"
+    "webpack": "3.4.1"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "react": ">=15",
+    "react-dom": ">=15"
   },
   "dependencies": {
     "classnames": "2.2.5",
@@ -92,7 +92,6 @@
     "lodash": "4.17.4",
     "prop-types": "15.5.10",
     "react-addons-update": "^0.14.0 || ^15.0.0",
-    "create-react-class": "15.6.0",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "create-react-class": "15.6.0"
   }
 }
