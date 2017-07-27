@@ -1,5 +1,5 @@
 import React from 'react';
-import update from 'react-addons-update';
+import update from 'immutability-helper';
 import classNames from 'classnames';
 import createClass from 'create-react-class';
 import animationMixin from './animationMixin';

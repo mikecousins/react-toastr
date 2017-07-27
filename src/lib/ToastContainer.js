@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
-import update from 'react-addons-update';
+import update from 'immutability-helper';
 import { animation } from './ToastMessage';
 
 class ToastContainer extends React.Component {

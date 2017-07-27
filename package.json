@@ -1,6 +1,6 @@
 {
   "name": "react-toastr2",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "React.js toastr component",
   "main": "lib/index.js",
   "files": [
@@ -90,9 +90,9 @@
     "classnames": "2.2.5",
     "create-react-class": "15.6.0",
     "domkit": "^0.0.1",
-    "element-class": "0.2.2",
-    "lodash": "4.17.4",
-    "prop-types": "15.5.10",
-    "react-addons-update": "^0.14.0 || ^15.0.0"
+    "element-class": "^0.2.2",
+    "immutability-helper": "^2.3.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10"
   }
 }
