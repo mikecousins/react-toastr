@@ -1,4 +1,4 @@
-import ReactTransitionEvents from 'react/lib/ReactTransitionEvents';
+import ReactTransitionEvents from 'domkit/transitionEvents';
 import ReactDOM from 'react-dom';
 import elementClass from 'element-class';
 
